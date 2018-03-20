@@ -18,3 +18,6 @@ The test action proposals are provided in `test_proposals_from_TURN.txt`. If you
 
 ### Train and test
 Modify the feature paths in `main.py` and run `python main.py`. The test results are saved to `./eval/test_results/`. You need to run post-processing program to get the final detection results, `python postproc.py xxx.pkl`. The final detection results can be evaluated by THUMOS-14 official eval tool.  
+
+### Detection Results
+I uploaded my detection results from tIoU=0.1 to tIoU=0.7 [here](https://github.com/jiyanggao/CBR-results)
