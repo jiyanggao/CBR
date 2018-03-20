@@ -11,7 +11,7 @@ This is the repository for BMVC 2017 paper "Cascaded Boundary Regression for Tem
 The model is built using TensorFlow 0.12, dataset is THUMOS-14.
 
 ### Download unit-level features 
-In this work, two-stream CNN features are used. The appearance features can be downloaded at here: [val set](), [test set](); the denseflow features can be downloaded here: [val set](https://drive.google.com/file/d/1-6dmY_Uy-H19HxvfK_wUFQCYHmlPzwFx/view?usp=sharing), [test set](https://drive.google.com/file/d/1Qm9lIJQFm5s6hDSB_2k1tj8q2tnabflJ/view?usp=sharing). Note that, val set is used for training, as the train set for THUMOS-14 does not contain untrimmed videos. 
+In this work, two-stream CNN features are used. The appearance features can be downloaded at here: [val set](https://drive.google.com/file/d/180YUoPvyaF2Z_T9KMKINLdDQCZEg60Jb/view?usp=sharing), [test set](https://drive.google.com/file/d/1x9Q78AZiAGqx4XB2zO3SEKp1htsATlnU/view?usp=sharing); the denseflow features can be downloaded here: [val set](https://drive.google.com/file/d/1-6dmY_Uy-H19HxvfK_wUFQCYHmlPzwFx/view?usp=sharing), [test set](https://drive.google.com/file/d/1Qm9lIJQFm5s6hDSB_2k1tj8q2tnabflJ/view?usp=sharing). Note that, val set is used for training, as the train set for THUMOS-14 does not contain untrimmed videos. 
 
 ### Action proposals
 The test action proposals are provided in `test_proposals_from_TURN.txt`. If you want to generate your own proposals, please go to [TURN](https://github.com/jiyanggao/TURN-TAP) repository. 
